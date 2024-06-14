@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+:root{
+    --primary-color: #fdfdfd;
+    --secondary-color: #212121;
+}
+.dark-theme{
+    --primary-color: #000106;
+    --secondary-color: #fff;
+}
+body{
+    background-color: var(--primary-color);
+}
+.nav a{
+    font-size: 40px;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: rgb(185, 116, 52);
+    padding: 20px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+
+}
+.menu ul{
+    text-align: right;
+    flex: 1;
+    justify-content: end;
+}
+
+.menu li{
+    display: inline;
+    
+}
+
+.menu li a{
+    color: var(--secondary-color);
+    list-style: none;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+#icon{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    margin-right: 50px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 50px 50px 100px ;
+}
+.container .content{
+    width: 50%;
+    padding-top: 100px;
+}
+.container h1{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    color: var(--secondary-color);
+}
+.container h1 span{
+    color: rgb(185, 116, 52) ;
+}
+.container p{
+    color: var(--secondary-color);
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    padding-bottom: 20px;
+}
+.btn{
+    font-family: "Outfit", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23px;
+    background-color: rgb(185, 116, 52);
+    color: white;
+    border: none;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+}
+#pet{
+    background-color: rgb(209, 176, 132);
+    border-radius: 90px 90px 400px 400px;
+    padding: 4px;
+    border: 100px groove rgb(207, 164, 124);
+    margin: 10px 50px 100px 50px;
+    
+}
